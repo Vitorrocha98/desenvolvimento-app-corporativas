@@ -93,10 +93,10 @@ public class HelloServlet extends HttpServlet {
                 msg = msg + "";
                 break;
             case "sr":
-                msg = msg+"Sr ";
+                msg = msg+"Sr. ";
                 break;
             case "sra":
-                msg = msg+"Sra ";
+                msg = msg+"Sra. ";
                 break;
         }
         
@@ -168,10 +168,10 @@ public class HelloServlet extends HttpServlet {
                 msg = msg + "";
                 break;
             case "sr":
-                msg = msg+"Sr ";
+                msg = msg+"Sr. ";
                 break;
             case "sra":
-                msg = msg+"Sra ";
+                msg = msg+"Sra. ";
                 break;
         }
         
