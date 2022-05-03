@@ -39,7 +39,7 @@ public class HelloServlet extends HttpServlet {
             out.println("<head>");
             out.println("<title>Servlet HelloServlet</title>");            
             out.println("</head>");
-            out.println("<body>");
+            out.println("<body style=\"background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); color: white; font-family: montserrat\">");
             out.println("<h1>Servlet HelloServlet at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
@@ -74,6 +74,30 @@ public class HelloServlet extends HttpServlet {
             case "fr":
                 msg = "Bonjour, ";
                 break;
+            case "de":
+                msg = "Hallo, ";
+                break;
+            case "es":
+                msg = "Hola, ";
+                break;
+            case "it":
+                msg = "Ciao, ";
+                break;
+        }
+        
+        String trat = request.getParameter("trat");
+        if(trat==null)
+            trat = "";
+        switch(trat){
+            case "none":
+                msg = msg + "";
+                break;
+            case "sr":
+                msg = msg+"Sr ";
+                break;
+            case "sra":
+                msg = msg+"Sra ";
+                break;
         }
         
         String nome = request.getParameter("nome");
@@ -91,7 +115,7 @@ public class HelloServlet extends HttpServlet {
             out.println("<head>");
             out.println("<title>Servlet HelloServlet</title>");            
             out.println("</head>");
-            out.println("<body>");
+            out.println("<body style=\"background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); color: white; font-family: montserrat\">");
             out.println("<h1>Servlet HelloServlet</h1>");
             out.println("<p>" + msg + "</p>");
             out.println("</body>");
@@ -136,6 +160,21 @@ public class HelloServlet extends HttpServlet {
                 break;
     }
         
+        String trat = request.getParameter("trat");
+        if(trat==null)
+            trat = "";
+        switch(trat){
+            case "none":
+                msg = msg + "";
+                break;
+            case "sr":
+                msg = msg+"Sr ";
+                break;
+            case "sra":
+                msg = msg+"Sra ";
+                break;
+        }
+        
         String nome = request.getParameter("nome");
 
         if(nome==null)
@@ -151,7 +190,7 @@ public class HelloServlet extends HttpServlet {
             out.println("<head>");
             out.println("<title>Servlet HelloServlet</title>");            
             out.println("</head>");
-            out.println("<body>");
+            out.println("<body style=\"background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); color: white; font-family: montserrat\">");
             out.println("<h1>Servlet HelloServlet!!</h1>");
             out.println("<p>" + msg + "</p>");
             out.println("</body>");
