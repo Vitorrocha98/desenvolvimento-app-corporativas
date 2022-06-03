@@ -113,11 +113,15 @@ public class HelloServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet HelloServlet</title>");            
+            out.println("<title>Servlet HelloServlet</title>");   
+            out.println("<style>@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');</style>");
             out.println("</head>");
             out.println("<body style=\"background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); color: white; font-family: montserrat\">");
-            out.println("<h1>Servlet HelloServlet</h1>");
+            out.println("<div id=\"servletGet\" style=\"display:flex;flex-direction:column;align-items:center;background:rgba(0,0,0,.35);box-shadow:0 8px 32px 0 rgba(31,38,135,.37);backdrop-filter:blur( 13.5px );border-radius:10px;margin-left:22%;margin-right:22%;padding-bottom:15px;padding-top:15px\">");
+            out.println("<h1 style=\"background: white;color: black;font-size: 22px;border-radius: 30px;font-family: montserrat;padding: 2%;\">Servlet HelloServlet</h1>");
             out.println("<p>" + msg + "</p>");
+            out.println("<div id=\"btnNavegacaoGet\"><a href=\".\" style=\"padding:5px 10px 5px 10px;border-radius:10px;text-decoration:none;color: white;background-color: #093596;\">Voltar</a></div>");
+            out.println("</div>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -188,11 +192,15 @@ public class HelloServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet HelloServlet</title>");            
+            out.println("<title>Servlet HelloServlet</title>");   
+            out.println("<style>@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');</style>");
             out.println("</head>");
             out.println("<body style=\"background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); color: white; font-family: montserrat\">");
-            out.println("<h1>Servlet HelloServlet!!</h1>");
+            out.println("<div id=\"servletPost\" style=\"display:flex;flex-direction:column;align-items:center;background:rgba(0,0,0,.35);box-shadow:0 8px 32px 0 rgba(31,38,135,.37);backdrop-filter:blur( 13.5px );border-radius:10px;margin-left:22%;margin-right:22%;padding-bottom:15px;padding-top:15px\">");
+            out.println("<h1 style=\"background: white;color: black;font-size: 22px;border-radius: 30px;font-family: montserrat;padding: 2%;\">Servlet HelloServlet!!</h1>");
             out.println("<p>" + msg + "</p>");
+            out.println("<div id=\"btnNavegacao\"><a href=\".\" style=\"padding:5px 10px 5px 10px;border-radius:10px;text-decoration:none;color: white;background-color: #093596;\">Home</a><a href=\"helloform.html\" style=\"padding:5px 10px 5px 10px;border-radius:10px;text-decoration:none;color: white;background-color: #093596;margin-left: 20px;\">Voltar</a></div>");
+            out.println("</div>");
             out.println("</body>");
             out.println("</html>");
         }

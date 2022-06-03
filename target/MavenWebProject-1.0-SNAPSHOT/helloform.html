@@ -12,20 +12,63 @@ and open the template in the editor.
         <style>@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');</style>
     </head>
     <body style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); color: white; font-family: montserrat">
-        <div style="background: white; color: black; width: 35%; font-size: 16px; padding: 10px 0px 10px 0px; border-radius: 30px; padding-left: 20px; font-family: montserrat;">Formulário de HelloWorld (usando o HelloServlet.java)</div>
-           <form action="alomundo" method="post">
-           <br>Idioma: <input type="radio" name="lang" value="pt" checked> Português
-           <input type="radio" name="lang" value="en"> Inglês
-           <input type="radio" name="lang" value="fr"> Francês
-           <input type="radio" name="lang" value="de"> Alemão
-           <input type="radio" name="lang" value="es"> Espanhol
-           <input type="radio" name="lang" value="it"> Italiano<br><br>
-           Forma de tratamento: <input type="radio" name="trat" value="none" checked> Nenhuma
-           <input type="radio" name="trat" value="sr"> Sr.
-           <input type="radio" name="trat" value="sra"> Sra.<br><br>
-           Nome: <input type="text" name="nome"/><br><br>
-           <input type="submit" value="Cumprimentar"/>
-        </form>
-
+            <div id="servletFormPost" style="
+        /* width: 50%; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba( 0, 0, 0, 0.35 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 13.5px );
+        border-radius: 10px;
+        margin-left: 22%;
+        margin-right: 22%;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        ">
+            <div style="background: white;color: black;font-size: 16px;padding: 10px 0px 10px 0px;border-radius: 30px;padding: 2%;font-family: montserrat;">Formulário de HelloWorld (usando o HelloServlet.java)</div>
+            <form action="alomundo" method="post">
+                    <br>Idioma:
+                    <input type="radio" name="lang" value="pt" checked=""> Português
+                    <input type="radio" name="lang" value="en"> Inglês
+                    <input type="radio" name="lang" value="fr"> Francês
+                    <input type="radio" name="lang" value="de"> Alemão
+                    <input type="radio" name="lang" value="es"> Espanhol
+                    <input type="radio" name="lang" value="it"> Italiano
+                    <br>
+                    <br> Forma de tratamento:
+                    <input type="radio" name="trat" value="none" checked=""> Nenhuma
+                    <input type="radio" name="trat" value="sr"> Sr.
+                    <input type="radio" name="trat" value="sra"> Sra.
+                    <br>
+                    <br> Nome:
+                    <input type="text" name="nome" style="
+        border-radius: 10px;
+        border: none;
+        padding: 1%;
+        ">
+                    <br>
+                    <br>
+                    <input type="submit" value="Cumprimentar" style="
+        border-radius: 10px;
+        border: none;
+        color: white;
+        background-color: #093596;
+        padding: 1%;
+        cursor: pointer;
+        font-family: montserrat;
+        ">
+            <a id="btnVoltar" href="." style="
+        border-radius: 10px;
+        border: none;
+        color: white;
+        background-color: #093596;
+        padding: 1%;
+        cursor: pointer;
+        margin-left: 20px;
+        text-decoration: none;
+        ">Voltar</a>
+            </form>
+        </div>
     </body>
 </html>
