@@ -1,6 +1,6 @@
 # Desenvolvimento de Aplicações Corporativas - 2022.1
 
-Repositório referente a atividade academica da disciplina Desenvolvimento de Aplicações Corporativas
+Repositório referente a atividade academica da disciplina Desenvolvimento de Aplicações Corporativas.
 
 ## Vitor Ferreira Rocha
 
