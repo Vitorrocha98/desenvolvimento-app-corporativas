@@ -1,10 +1,12 @@
 # Desenvolvimento de Aplicações Corporativas - 2022.1
 
-Repositório referente a atividade academica "Tarefa 01", pertencente a disciplina Desenvolvimento de Aplicações Corporativas.
-
-A alteração realizada foi o aprimoramento de todas as páginas possíveis de se acessar na aplicação, buscando uma visualização minimalista e agradável.
+Repositório referente à atividade acadêmica "Tarefa 01", pertencente à disciplina Desenvolvimento de Aplicações Corporativas.
 
 ## Vitor Ferreira Rocha
+
+## Descrição da alteração adicionada
+
+Foi realizado o aprimoramento de todas as páginas da aplicação, buscando uma visualização minimalista e agradável, além de tornar possível a navegação entre as mesmas.
 
 ## Aplicação
 Para acessar a aplicação no Heroku, clique aqui: https://protected-castle-75152.herokuapp.com/
