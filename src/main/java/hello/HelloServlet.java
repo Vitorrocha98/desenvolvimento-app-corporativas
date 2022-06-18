@@ -98,6 +98,36 @@ public class HelloServlet extends HttpServlet {
             case "sra":
                 msg = msg+"Sra. ";
                 break;
+            case "mr":
+                msg = msg+"Mr. ";
+                break;
+            case "mrs":
+                msg = msg+"Mrs. ";
+                break;
+            case "m":
+                msg = msg+"M. ";
+                break;
+            case "mme":
+                msg = msg+"Mme. ";
+                break;
+            case "herr":
+                msg = msg+"Herr. ";
+                break;
+            case "frau":
+                msg = msg+"Frau. ";
+                break;
+            case "sres":
+                msg = msg+"Sres. ";
+                break;
+            case "sra.":
+                msg = msg+"Sra. ";
+                break;
+            case "sig":
+                msg = msg+"Sig. ";
+                break;
+            case "sigra":
+                msg = msg+"Sig.ra. ";
+                break;
         }
         
         String nome = request.getParameter("nome");
@@ -118,7 +148,7 @@ public class HelloServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body style=\"background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); color: white; font-family: montserrat\">");
             out.println("<div id=\"servletGet\" style=\"display:flex;flex-direction:column;align-items:center;background:rgba(0,0,0,.35);box-shadow:0 8px 32px 0 rgba(31,38,135,.37);backdrop-filter:blur( 13.5px );border-radius:10px;margin-left:22%;margin-right:22%;padding-bottom:15px;padding-top:15px\">");
-            out.println("<h1 style=\"background: white;color: black;font-size: 22px;border-radius: 30px;font-family: montserrat;padding: 2%;\">Servlet HelloServlet</h1>");
+            out.println("<h1 style=\"background: white;color: black;font-size: 22px;border-radius: 30px;font-family: montserrat;padding: 2%;font-weight: normal;\">Servlet HelloServlet</h1>");
             out.println("<p>" + msg + "</p>");
             out.println("<div id=\"btnNavegacaoGet\"><a href=\".\" style=\"padding:5px 10px 5px 10px;border-radius:10px;text-decoration:none;color: white;background-color: #093596;\">Voltar</a></div>");
             out.println("</div>");
@@ -177,6 +207,36 @@ public class HelloServlet extends HttpServlet {
             case "sra":
                 msg = msg+"Sra. ";
                 break;
+            case "mr":
+                msg = msg+"Mr. ";
+                break;
+            case "mrs":
+                msg = msg+"Mrs. ";
+                break;
+            case "m":
+                msg = msg+"M. ";
+                break;
+            case "mme":
+                msg = msg+"Mme. ";
+                break;
+            case "herr":
+                msg = msg+"Herr. ";
+                break;
+            case "frau":
+                msg = msg+"Frau. ";
+                break;
+            case "sres":
+                msg = msg+"Sres. ";
+                break;
+            case "sra.":
+                msg = msg+"Sra. ";
+                break;
+            case "sig":
+                msg = msg+"Sig. ";
+                break;
+            case "sigra":
+                msg = msg+"Sig.ra. ";
+                break;
         }
         
         String nome = request.getParameter("nome");
@@ -197,7 +257,7 @@ public class HelloServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body style=\"background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); color: white; font-family: montserrat\">");
             out.println("<div id=\"servletPost\" style=\"display:flex;flex-direction:column;align-items:center;background:rgba(0,0,0,.35);box-shadow:0 8px 32px 0 rgba(31,38,135,.37);backdrop-filter:blur( 13.5px );border-radius:10px;margin-left:22%;margin-right:22%;padding-bottom:15px;padding-top:15px\">");
-            out.println("<h1 style=\"background: white;color: black;font-size: 22px;border-radius: 30px;font-family: montserrat;padding: 2%;\">Servlet HelloServlet!!</h1>");
+            out.println("<h1 style=\"background: white;color: black;font-size: 22px;border-radius: 30px;font-family: montserrat;padding: 2%;font-weight: normal;\">Servlet HelloServlet!!</h1>");
             out.println("<p>" + msg + "</p>");
             out.println("<div id=\"btnNavegacao\"><a href=\".\" style=\"padding:5px 10px 5px 10px;border-radius:10px;text-decoration:none;color: white;background-color: #093596;\">Home</a><a href=\"helloform.html\" style=\"padding:5px 10px 5px 10px;border-radius:10px;text-decoration:none;color: white;background-color: #093596;margin-left: 20px;\">Voltar</a></div>");
             out.println("</div>");

@@ -26,9 +26,9 @@ and open the template in the editor.
         padding-bottom: 15px;
         padding-top: 15px;
         ">
-            <div style="background: white;color: black;font-size: 16px;padding: 10px 0px 10px 0px;border-radius: 30px;padding: 2%;font-family: montserrat;">Formulário de HelloWorld (usando o HelloServlet.java)</div>
+            <div style="background: white;color: black;font-size: 22px;border-radius: 30px;font-family: montserrat;padding: 2%;">Formulário de HelloWorld (usando o HelloServlet.java)</div>
             <form action="alomundo" method="post">
-                    <br>Idioma:
+                    <p style="font-weight: bold;letter-spacing: 0.1rem;">Idioma:</p>
                     <input type="radio" name="lang" value="pt" checked=""> Português
                     <input type="radio" name="lang" value="en"> Inglês
                     <input type="radio" name="lang" value="fr"> Francês
@@ -36,12 +36,28 @@ and open the template in the editor.
                     <input type="radio" name="lang" value="es"> Espanhol
                     <input type="radio" name="lang" value="it"> Italiano
                     <br>
-                    <br> Forma de tratamento:
-                    <input type="radio" name="trat" value="none" checked=""> Nenhuma
+                    <p style="font-weight: bold;letter-spacing: 0.1rem;">Forma de tratamento:</p>
+                    <input type="radio" name="trat" value="none" checked=""> Nenhuma/None/Rien/Keiner/Ninguna/Nessuno
+                    <br>
                     <input type="radio" name="trat" value="sr"> Sr.
                     <input type="radio" name="trat" value="sra"> Sra.
                     <br>
-                    <br> Nome:
+                    <input type="radio" name="trat" value="mr"> Mr.
+                    <input type="radio" name="trat" value="mrs"> Mrs.
+                    <br>
+                    <input type="radio" name="trat" value="m"> M.
+                    <input type="radio" name="trat" value="mme"> Mme.
+                    <br>
+                    <input type="radio" name="trat" value="herr"> Herr.
+                    <input type="radio" name="trat" value="frau"> Frau.
+                    <br>
+                    <input type="radio" name="trat" value="sres"> Sres.
+                    <input type="radio" name="trat" value="sra."> Sra.
+                    <br>
+                    <input type="radio" name="trat" value="sig"> Sig.
+                    <input type="radio" name="trat" value="sigra"> Sig.ra.
+                    <br>
+                    <p style="font-weight: bold;letter-spacing: 0.1rem;">Nome:</p>
                     <input type="text" name="nome" style="
         border-radius: 10px;
         border: none;
